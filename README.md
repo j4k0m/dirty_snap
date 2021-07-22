@@ -11,4 +11,8 @@ sudo ./dirty_snap.sh [CMD]
 
 # Example (Tested on armageddon.htb):
 
+```bash
+sudo ./dirty_snap.sh id
+```
+
 ![alt img](https://i.imgur.com/IfuI8XQ.png)
