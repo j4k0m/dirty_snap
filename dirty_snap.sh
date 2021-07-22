@@ -1,7 +1,7 @@
 #!/bin/bash
 echo -e "\e[32mInstalling fpm...\e[0m"
 sudo apt-get update
-apt-get install ruby ruby-dev rubygems build-essential
+sudo apt-get install ruby ruby-dev rubygems build-essential
 gem install --no-document fpm
 echo -e "\e[32mGenerating the payload...\e[0m"
 mkdir -p meta/hooks
